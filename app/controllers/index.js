@@ -16,12 +16,17 @@ function showLiteneraire(e) {
 	}
 }
 
-
+function finishProcess(){
+	alert('Success');
+}
+/*
 require("dataHandlers").test(function(response) {
 		//Alloy.Globals.globals = response;
 		stringify(response, 'globalsssssssssss');
 	}, function error() {
 	});
+*/	
+	
 //require('pushManager').activate();
 
 $.index.open();

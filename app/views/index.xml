@@ -34,7 +34,7 @@
 		<CardView id='btn' onClick='showLiteneraire'>
 			<Label icon="fa-map" color='white' id='iconMap'/>
 		</CardView>
-		<Button id='finishBtn' class='fontRegular'></Button>
+		<Button id='finishBtn' class='fontRegular' onClick="finishProcess"></Button>
 		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
 	</Window>
 </Alloy>
