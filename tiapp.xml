@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>com.sada.eshara</id>
+	<name>Eshara</name>
+	<version>1.0</version>
+	<publisher>Apple</publisher>
+	<url/>
+	<description>undefined</description>
+	<copyright>2018 by Apple</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>true</analytics>
+	<guid>702d64bb-191a-47f3-9555-3c21bb2b9724</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="run-on-main-thread" type="bool">true</property>
+	<ios>
+		<enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+		<use-app-thinning>true</use-app-thinning>
+		<plist>
+			<dict>
+				<key>UISupportedInterfaceOrientations~iphone</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UISupportedInterfaceOrientations~ipad</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+					<string>UIInterfaceOrientationPortraitUpsideDown</string>
+					<string>UIInterfaceOrientationLandscapeLeft</string>
+					<string>UIInterfaceOrientationLandscapeRight</string>
+				</array>
+				<key>UIRequiresPersistentWiFi</key>
+				<false/>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>UIStatusBarHidden</key>
+				<false/>
+				<key>UIStatusBarStyle</key>
+				<string>UIStatusBarStyleDefault</string>
+			</dict>
+		</plist>
+	</ios>
+	<property name="gcm.senderid">960573827199</property>
+	<property name="ti.android.bug2373.disableDetection" type="bool">true</property>
+	<property name="ti.android.bug2373.finishfalseroot" type="bool">true</property>
+	<property name="ti.android.bug2373.restartDelay" type="int">500</property>
+	<property name="ti.android.bug2373.finishDelay" type="int">0</property>
+	<property name="ti.android.bug2373.skipAlert" type="bool">true</property>
+	<property name="ti.android.bug2373.message">Initializing</property>
+	<property name="ti.android.bug2373.title">Restart Required</property>
+	<property name="ti.android.bug2373.buttonText">Continue</property>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+		<manifest android:versionCode="1" android:versionName="1">
+			<application android:debuggable="true" android:hardwareAccelerated="true" android:largeHeap="false" android:theme="@style/Theme.NoActionBar">
+				<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+			</application>
+			<uses-permission android:name="android.permission.INTERNET"/>
+		</manifest>
+	</android>
+	
+	<modules>
+		<module platform="android">ti.goosh</module>
+	</modules>
+	<deployment-targets>
+		<target device="android">true</target>
+		<target device="ipad">false</target>
+		<target device="iphone">false</target>
+	</deployment-targets>
+	<sdk-version>7.2.0.GA</sdk-version>
+	<plugins>
+		<plugin version="1.0">ti.alloy</plugin>
+	</plugins>
+	<property name="appc-app-id" type="string">5b6263c9a27f9503eeb99270</property>
+</ti:app>

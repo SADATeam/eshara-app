@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "960573827199",
+    "firebase_url": "https://sada-478c0.firebaseio.com",
+    "project_id": "sada-478c0",
+    "storage_bucket": "sada-478c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960573827199:android:a028df66b0c2bf78",
+        "android_client_info": {
+          "package_name": "com.sada.eshara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960573827199-1pnb80oip5a88np7kuc215qh66cmqdq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTdbUsT3IU-x5pNqxZ7q9EwaPA38VSJgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

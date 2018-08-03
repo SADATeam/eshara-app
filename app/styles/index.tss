@@ -1,0 +1,103 @@
+".container": {
+	backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#img": {
+	image : '/hajj2.jpg',
+	//image : '/hajj2.png',
+	height : 270,
+	width : Titanium.UI.FILL,
+	top : 0
+}
+
+"#profileImg": {
+	 //backgroundColor : 'white',
+	 //top : 10,
+	 width : 120,
+	 image : '/abdullah.png'
+}
+
+"#profileDiv": {
+	 backgroundColor : 'white',
+	 height : 140,
+	 width : 140,
+	 borderRadius : 70,
+	 borderWidth : 0
+}
+
+'#fullname':{
+	top : 20,
+	left : 15,
+	font : {
+		fontSize : '32sp'
+	},
+	color : '#393e46'
+}
+
+'#iconMap':{
+	font : {
+		fontSize : '22sp'
+	}
+}
+
+'.icon':{
+	left : 25,
+	font : {
+		fontSize : '17sp'
+	},
+	color : '#7F7F7F'
+}
+'.info':{
+	right : 15,
+	left : 7,
+	font : {
+		fontSize : '15sp'
+	},
+	color : '#7F7F7F'
+}
+'#fingerprint':{
+	font : {
+		fontSize : '32sp'
+	},
+}
+'#btn': {
+	top : 240,
+	right : 20,
+	height : 60, width : 60,
+	borderRadius : 30,
+	borderWidth : 0,
+	backgroundColor : '#20B2AA',
+	contentPadding: 20,
+    cardCornerRadius: 10,
+    elevation : 20,
+    cardUseCompatPadding: true
+}
+
+'#finishBtn': {
+	right : 15, left : 15,
+	height : 50,
+	bottom : 20,
+	borderRadius : 4,
+	borderWidth : 0,
+	backgroundColor : '#20B2AA',
+	title: 'FINISH'
+}
+
+'.sep':{
+	top : 15,
+	height : 1,
+	backgroundColor : '#e5e5e5',
+	left : 15, right : 15
+}
+'.div':{
+	height : Titanium.UI.SIZE,
+	width : '49%',
+	//layout : 'horizontal',
+	//, right : 15
+}

@@ -1,0 +1,40 @@
+<Alloy>
+	<Window class="container">
+		<View id='container' layout="vertical">
+			<View id='imgDiv' height="Titanium.UI.SIZE">
+				<ImageView id='img' opacity=0.8/>
+				<ScrollView id='profileDiv'>
+					<ImageView id='profileImg' />
+				</ScrollView>
+			</View>
+			<Label id='fullname' class="fontRegular"  />
+			<View class="sep"></View>
+			<View height="Titanium.UI.SIZE" width="Titanium.UI.FILL" >
+				<View class='div' left='0'>
+					<View height="Titanium.UI.SIZE" width="Titanium.UI.SIZE" layout="horizontal">
+						<Label icon="fa-book" class='icon' />
+						<Label id='passport' class='info fontRegular' />
+					</View>
+				</View>
+				<View width='1' top='10' height="40" backgroundColor="#e5e5e5"> </View>
+				<View class='div' right='0'>
+					<View height="Titanium.UI.SIZE" width="Titanium.UI.SIZE" layout="horizontal">
+						<Label icon="fa-flag" class='icon' />
+						<Label id='flag' class='info fontRegular' />
+					</View>
+				</View>  
+			</View>
+			<View class="sep" top='10'></View>
+			<View class='div' top=15 width="Titanium.UI.SIZE">
+				<Label icon="fa-fingerprint" class='icon' />
+				<Label id='fingerprint' class='info fontRegular' />
+			</View> 
+			<View class="sep" top='15'></View>
+		</View>
+		<CardView id='btn' onClick='showLiteneraire'>
+			<Label icon="fa-map" color='white' id='iconMap'/>
+		</CardView>
+		<Button id='finishBtn' class='fontRegular'></Button>
+		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</Window>
+</Alloy>
